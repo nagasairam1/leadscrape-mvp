@@ -1,7 +1,5 @@
 
-Qwen3-Max
-8:35 PM
-Here’s a short, clean README you can paste directly:
+
 
 🚀 LeadScrape MVP
 Automate public LinkedIn lead scraping → get CSV exports via Chrome Extension + Playwright backend.
