@@ -46,3 +46,8 @@ services:
 
 volumes:
   postgres_data:
+
+  apiVersion: v2
+name: leadscrape
+version: 0.1.0
+appVersion: "0.1.0"
