@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "LeadScrape MVP",
+  "version": "0.1.0",
+  "description": "Trigger LinkedIn lead scraping jobs securely",
+  "permissions": ["storage", "identity", "notifications"],
+  "host_permissions": ["http://localhost:3000/*", "https://api.leadscrape.dev/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}
