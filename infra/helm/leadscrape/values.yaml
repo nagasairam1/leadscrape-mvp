@@ -1,4 +1,6 @@
-apiVersion: v2
-name: leadscrape
-version: 0.1.0
-appVersion: "0.1.0"
+backend:
+  image: ghcr.io/yourorg/lead-backend:latest
+  replicas: 2
+worker:
+  image: ghcr.io/yourorg/lead-worker:latest
+  replicas: 2
